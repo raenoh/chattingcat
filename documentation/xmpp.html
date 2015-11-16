@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="description" content="Learn how to quickly get started using our CSS framework. We have guides for a variety of skill levels.">
+        <title> Hellow </title>
+        <!-- Favicons-->
+        <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+        <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+        <!--  Android 5 Chrome Color-->
+        <meta name="theme-color" content="#EE6E73">
+        <!-- CSS-->
+        <link href="css/prism.css" rel="stylesheet">
+        <link href="css/ghpages-materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+        <style>
+            body {
+                display: flex;
+                min-height: 100vh;
+                flex-direction: column;
+            }
+
+            main {
+                flex: 1 0 auto;
+            }
+        </style>
+        <script src="//cdn.transifex.com/live.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav"><i class="mdi-navigation-menu"></i></a></div>
+            <nav class="nav-wrapper blue lighten-1">
+                <div style="margin-right:20px">
+                    <a style="margin-left:20px;" href="#!" class="brand-logo"><img style="width:50px;height:50px;margin-top:8px" src="../avatar/ic_launcher.png"/><h5 style="margin-top:-60px;margin-left:60px">Hellow</h5></a>
+
+                </div>
+            </nav>
+            <ul id="nav-mobile" class="side-nav fixed">
+                <li class="bold"><a href="index.html" class="waves-effect waves-teal">Web</a></li>
+                <li class="bold"><a href="android.html" class="waves-effect waves-teal">Android</a></li>
+                <li class="bold"><a href="xmpp.html" class="waves-effect waves-teal">XMPP setup(Openfire)</a></li>
+            </ul>
+        </header>
+
+        <!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+        -->
+        <!DOCTYPE html>
+    <main style="margin-left:20px;">
+        <div>
+            <div class="content">
+                <p>Openfire is an open source, real-time collaboration server that uses XMPP (Jabber). The server is a breeze to install and easy to use. Users can even connect to the Openfire server with different chat clients, such as <a href="http://live.gnome.org/Empathy" target="_blank">Empathy</a> and <a href="http://www.pidgin.im/" target="_blank">Pidgin</a>.</p>
+                <p>Openfire is available for the Windows, Linux, and Mac platforms. For this DIY tutorial, I will use Linux (specifically, Ubuntu 11.04), my platform of choice.</p>
+                <h2>Installation requirements</h2>
+                <p>Java JRE is Openfire's only requirement. If you're installing Openfire on the Windows platform, the installer includes Java JRE, but since we're digging into Linux, we must first install the Java JRE.</p>
+                <p></p><ol type="1"><p></p>
+                    <li>Open a terminal window.</li>
+                    <li>Issue the command <em>sudo add-apt-repository ppa:ferramroberto/java</em>.</li>
+                    <li>Type your sudo password      and hit [Enter].</li>
+                    <li>Issue the command <em>sudo apt-get update</em>.</li>
+                    <li>Issue the command <em>sudo apt-get install sun-java6-jre      sun-java6-plugin sun-java6-fonts</em>.</li>
+                    <p></p></ol><p></p>
+                <div id="inpage-video-top-5506894206ff8" class="ad-inpage-video-top" data-ad="inpage-video-top" style="display: none;">
+                    <script>
+                        window.console && console.log && console.log("ADS: queuing inpage-video-top-5506894206ff8 for display");
+                        var cbsiGptDivIds = cbsiGptDivIds || [];
+                        cbsiGptDivIds.push("inpage-video-top-5506894206ff8");
+                    </script>
+                    <div id="google_ads_iframe_/8264/asia-techrepublic/data-management_11__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8264/asia-techrepublic/data-management_11" name="google_ads_iframe_/8264/asia-techrepublic/data-management_11" width="641" height="321" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+
+
+                <h2>Install Openfire on Linux</h2>
+                <p></p><ol><p></p>
+                    <li>Download the .deb file from the <a href="http://www.igniterealtime.org/downloads/index.jsp#openfire" target="_blank">Openfire download page</a>.</li>
+                    <li>Open a terminal window and change to the directory the .deb was saved into.</li>
+                    <li>Issue the command <em>sudo dpkg -i openfire_XXX.deb</em> (XXX is the release number).</li>
+                    <li>Enter your sudo password and hit [Enter].</li>
+                    <p></p></ol><p></p>
+                <p>Once the installation completes, the server is installed, but there's still another component to this process: the Web install.</p>
+                <h2>Web installation</h2>
+                <p>Open your web browser and point it to <a href="http://address_to_server:9090/">http://ADDRESS_TO_SERVER:9090</a>; this will start the web-based installation of the Openfire server. There are five sections to the installation: Language Selection, Server Settings, Database Settings, Profile Settings, Administrator Account.    </p><section id="sharethrough-top">
+                    <div id="sharethrough-top-5506894206ff8" class="ad-sharethrough-top" data-ad="sharethrough-top" style="display: none;">
+                        <script>
+                            window.console && console.log && console.log("ADS: queuing sharethrough-top-5506894206ff8 for display");
+                            var cbsiGptDivIds = cbsiGptDivIds || [];
+                            cbsiGptDivIds.push("sharethrough-top-5506894206ff8");
+                        </script>
+                        <div id="google_ads_iframe_/8264/asia-techrepublic/data-management_12__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8264/asia-techrepublic/data-management_12" name="google_ads_iframe_/8264/asia-techrepublic/data-management_12" width="11" height="11" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:&quot;<html><body style='background:transparent'></body></html>&quot;" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
+
+                </section><p></p>
+                <strong>Step 1: Language Selection
+                </strong>
+                Choose which language you want the installer and the admin console to be in (<strong>Figure A</strong>) and then click Next.
+                <strong>Figure A</strong>
+                <p><a href="http://b2b.cbsimg.net/blogs/openfire_install_1.png" target="_blank"><img class="alignnone size-full wp-image-1415" title="openfire_install_1" src="http://b2b.cbsimg.net/blogs/openfire_install_1.png" alt="" width="620" height="348"></a></p>
+                <h6>The language you choose will be the language the rest of the installer uses, so choose wisely. (Click the image to enlarge.)</h6>
+                <strong>Step 2: Server Settings</strong>
+                Configure the server domain, the admin console port, and the secure admin console port (<strong>Figure B</strong>) and then click Next.
+                <strong>Figure B</strong>
+                <p><a href="http://b2b.cbsimg.net/blogs/openfire_install_2.png" target="_blank"><img class="alignnone size-full wp-image-1416" title="openfire_install_2" src="http://b2b.cbsimg.net/blogs/openfire_install_2.png" alt="" width="620" height="348"></a></p>
+                <h6>Make sure the ports you use are open on your network, or users won't be able to do much collaborating. (Click the image to enlarge.)</h6>
+                <strong>Step 3: Database Settings</strong>
+                There are two ways to go here (<strong>Figure C</strong>): You can use the embedded database (this is the fastest and the easiest way to finish the installation), or you can use an external database. I suggest making this choice based on the number of users and the amount of traffic this server might see. If you think it's going to be hammered, you should use a standard database connection (MySQL is preferred).
+                <p>I recommend opting for the embedded database if this is your first round. It isn't more challenging to install than the standard database, but with the standard database, you will need to have a MySQL server up and running and create a database. I suggest using the embedded database first for testing purposes, and if you decide you want to keep Openfire, then re-install with the standard database approach.</p>
+                <strong>Figure C</strong>
+                <p><a href="http://b2b.cbsimg.net/blogs/openfire_install_3.png" target="_blank"><img class="alignnone size-full wp-image-1417" title="openfire_install_3" src="http://b2b.cbsimg.net/blogs/openfire_install_3.png" alt="" width="620" height="348"></a></p>
+                <h6>The embedded database makes installation incredibly simple. (Click the image to enlarge.)</h6>
+                <strong>Step 4: Profile Settings</strong>
+                This section wants to know how you plan on authenticating users (<strong>Figure D</strong>); the three options are: Default, LDAP, Clearspace. I find Default to be the most reliable route. Although if you are on a large network with numerous users and already have an LDAP server set up, you should go with the LDAP method. After you make your selection, click Next to finish the installation.
+                <strong>Figure D</strong>
+                <p><a href="http://b2b.cbsimg.net/blogs/openfire_install_4.png" target="_blank"><img class="alignnone size-full wp-image-1418" title="openfire_install_4" src="http://b2b.cbsimg.net/blogs/openfire_install_4.png" alt="" width="620" height="348"></a></p>
+                <h6>Click the image to enlarge.</h6>
+                <strong>Step 5: Administrator Account</strong>
+                Enter a valid email address and password to be used for the admin user on the system (<strong>Figure E</strong>) and then click Continue.
+                <strong>Figure E</strong>
+                <p><a href="http://b2b.cbsimg.net/blogs/openfire_install_5.png" target="_blank"><img class="alignnone size-full wp-image-1419" title="openfire_install_5" src="http://b2b.cbsimg.net/blogs/openfire_install_5.png" alt="" width="620" height="348"></a></p>
+                <h6>You can't skip this step, because the admin user is required to set up the server. (Click the image to enlarge.)</h6>
+                The next page should give you the Setup Complete message and offer a button to allow you to log in to the admin console. You won't be able to log in -- no matter how many times you try those credentials, they won't work. You <strong>must</strong> reboot your server before you'll be able to log in as the admin user. Once it's rebooted, log in with:
+                <ul>
+                    <li> username: admin</li>
+                    <li>password: The password created during the admin user stage of the installation.</li>
+                </ul>
+                <h2>Adding users</h2>
+                In order for anyone to connect to the Openfire server, they must be added to the system. You simply click the Users/Groups tab on the Admin Console and then click Create New User (<strong>Figure F</strong>). After you enter the information for the new user, the user will be ready to log in to the server. Make sure you add all of the users necessary (in big environments, this might be taken care of by LDAP).
+                <strong>Figure F</strong>
+                <p><a href="http://b2b.cbsimg.net/blogs/openfire_add_user.png" target="_blank"><img class="alignnone size-full wp-image-1420" title="openfire_add_user" src="http://b2b.cbsimg.net/blogs/openfire_add_user.png" alt="" width="620" height="348"></a></p>
+                <h6>If you want more fine-grained control over users, you should consider creating groups that will house different types of users. (Click the image to enlarge.)</h6>
+                <h2>Connecting to the server</h2>
+                <p>The way in which the user connects to the server will depend upon the client they use. Here's the gist of how to connect:</p>
+                <p></p><ol><p></p>
+                    <li>Open the chat client.</li>
+                    <li>Add a new Jabber account. The user ID must be in the form of <a href="mailto:USERID@SERVER_ADDRESS">USERID@SERVER_ADDRESS</a>, and the password was set by the administrator when the user was created.</li>
+                    <p></p></ol><p></p>
+                <p>You now have a full-fledged chat server running on your network. Let the collaboration and efficient communication begin!</p>
+
+            </div>        </div>
+
+    </main>
+    <footer>
+        <script src="js/jquery.timeago.min.js"></script>  
+        <script src="js/prism.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+    </footer>

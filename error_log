@@ -1,0 +1,13 @@
+[04-Aug-2015 06:15:40 UTC] PHP Parse error:  syntax error, unexpected 'users' (T_STRING), expecting ']' in /home/icanstud/public_html/hellowv1/application/controllers/api/user.php on line 208
+[04-Aug-2015 06:16:17 UTC] PHP Parse error:  syntax error, unexpected 'users' (T_STRING), expecting ']' in /home/icanstud/public_html/hellowv1/application/controllers/api/user.php on line 208
+[04-Aug-2015 06:18:53 UTC] PHP Parse error:  syntax error, unexpected 'application' (T_STRING), expecting ']' in /home/icanstud/public_html/hellowv1/application/controllers/api/user.php on line 214
+[04-Aug-2015 06:19:15 UTC] PHP Parse error:  syntax error, unexpected 'application' (T_STRING), expecting ']' in /home/icanstud/public_html/hellowv1/application/controllers/api/user.php on line 214
+[12-Aug-2015 05:13:26 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 402
+[12-Aug-2015 05:13:48 UTC] PHP Parse error:  syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 402
+[12-Aug-2015 05:43:17 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 496
+[12-Aug-2015 05:43:34 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 496
+[12-Aug-2015 05:46:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 500
+[12-Aug-2015 05:47:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 163
+[12-Aug-2015 05:48:15 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 500
+[12-Aug-2015 05:48:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 500
+[12-Aug-2015 05:51:10 UTC] PHP Parse error:  syntax error, unexpected ''layout' (T_ENCAPSED_AND_WHITESPACE) in /home/icanstud/public_html/hellowv1/application/controllers/user.php on line 645
